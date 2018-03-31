@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58081" started-at="2018-03-31T05:11:10Z" finished-at="2018-03-31T05:12:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="58081" started-at="2018-03-31T05:11:10Z" finished-at="2018-03-31T05:12:08Z">
+      <class name="Complete_Profile.Profile">
+        <test-method status="PASS" signature="Launchapp()[pri:0, instance:Complete_Profile.Profile@51c8530f]" name="Launchapp" is-config="true" duration-ms="22677" started-at="2018-03-31T05:11:10Z" finished-at="2018-03-31T05:11:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launchapp -->
+        <test-method status="PASS" signature="select_DOB()[pri:1, instance:Complete_Profile.Profile@51c8530f]" name="select_DOB" duration-ms="30026" started-at="2018-03-31T05:11:32Z" finished-at="2018-03-31T05:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_DOB -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Complete_Profile.Profile@51c8530f]" name="quitDriver" is-config="true" duration-ms="5357" started-at="2018-03-31T05:12:03Z" finished-at="2018-03-31T05:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Complete_Profile.Profile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

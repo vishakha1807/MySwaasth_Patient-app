@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Any Name]">
+  <test thread-count="5" name="Any Name(failed)">
+    <classes>
+      <class name="Login.Signup">
+        <methods>
+          <include name="signup_positivetest"/>
+          <include name="quitDriver"/>
+          <include name="signup_negativetest2"/>
+          <include name="signup_negativetest3"/>
+          <include name="signup_negativetest1"/>
+          <include name="signup_negativetest4"/>
+          <include name="Launchapp"/>
+        </methods>
+      </class> <!-- Login.Signup -->
+    </classes>
+  </test> <!-- Any Name(failed) -->
+</suite> <!-- Failed suite [Any Name] -->
